@@ -1,8 +1,9 @@
+import Head from "next/head";
 import { Fragment } from 'react';
-import Head from 'next/head';
-import Contact from '../components/Contact/Contact';
+import Contact from '../../components/Contact/Contact';
 
-function HomePage(props) {
+
+function ContactPage() {
   return (
     <Fragment>
       <Head>
@@ -13,11 +14,9 @@ function HomePage(props) {
         />
       </Head>
       <div>
-      <Contact />
+        <Contact />
       </div>
-      
     </Fragment>
   );
-}
-
-export default HomePage;
+};
+export default ContactPage;

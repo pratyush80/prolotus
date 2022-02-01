@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  box-shadow: 2px 2px 2px 2px  rgb(66, 156, 93);
+  border-radius: 5px;
+  flex-direction: row;
+}
+
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+.text {
+  display: flex;
+  align-items: flex-start;
+}
+.text li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  margin: .2rem;
+  color: #00000099;
+}
+.rental {
+  color: #4a4a4a;
+}
+
+.gap {
+  padding: 0.5rem;
+}
+.image {
+  margin: 0.15rem;
+  border-radius: 10px;
+}
+
+@media  (max-width:580px) {
+  .item {
+    flex-direction: column;
+  }
+  .main{
+    display: flex;
+    margin: 0.15rem;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .image{
+    height: 200px;
+    width: 350px;
+  }
+}
+  
