@@ -3,26 +3,45 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #fdfdfd;
+  background-color: #393939;
   border-radius: 10px;
 }
-
+.gap {
+  padding: 0.2rem;
+}
 
 .main {
   display: flex;
   box-shadow: 2px 2px 2px 2px  rgb(66, 156, 93);
   border-radius: 5px;
-  flex-wrap: wrap;
 }
+.image {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  color: #ababab;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h3 {
+  align-items: center;
+}
+
+.text ul {
+  align-items: center;
+}
+
 
 @media  (max-width:580px) {
   .item {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
-  .main {
-    max-width: 300px;
-  }
+ .text {
+  flex-direction: column;
+ }
 }
   

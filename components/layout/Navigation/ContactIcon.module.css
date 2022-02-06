@@ -1,11 +1,23 @@
 .main {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   margin: .2rem;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: .85rem;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:rgb(168, 27, 27); }
+  25%  {background-color:rgb(156, 156, 28); }
+  50%  {background-color:rgb(33, 33, 145); }
+  75%  {background-color:rgb(28, 141, 28); }
+  100% {background-color:rgb(136, 24, 24);}
 }
 
 .item {
@@ -50,10 +62,27 @@
   background-color: #ffe2ed;
 }
 
+/* for mobile */
 @media (max-width: 580px) {
- .image img {
-   width: 30px;
-   height: 30px;
- }
+.main{
+  font-size: 0.65rem;
+}
+
+.image img {
+  width: 60px;
+  height: 60px;
+}
   
+}
+ /* FOR TABLET */
+@media (max-width: 768px) {
+  .main{
+    font-size: 0.75rem;
+  }
+  
+  .image img {
+    width: 50px;
+    height: 50px;
+  }
+    
 }

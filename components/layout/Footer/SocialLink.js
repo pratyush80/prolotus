@@ -17,7 +17,7 @@ function SocialLink() {
         </div>
       </div>
       <div className={classes.item}>
-       <p>Copyright © 2022 rolotus technology Pvt. Ltd. All rights reserved.</p>
+       <p>Copyright © 2022 rolotus technology Pvt Ltd. All rights reserved.</p>
       </div>
     </section>
   )
