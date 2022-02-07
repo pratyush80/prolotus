@@ -25,19 +25,19 @@ function FavouriteRide() {
       <div className={classes.text}>
         <h4>Southern Odisha</h4>
         <ul>
-          Angul to Bhubaneswar
+          Bolangir to Bhubaneswar
         </ul>
         <ul>
-          Sambalpur to Bhubaneswar
+          Sambalpur to Rourkela
         </ul>
         <ul>
-          Sambalpur to Puri
+          Sambalpur to Baleswar
         </ul>
         <ul>
-          Angul to Berhampur
+          Angul to NUapada
         </ul>
         <ul>
-          Angul to Rourkela
+          Dhenkanal to Rourkela
         </ul>
       </div>
       <div className={classes.text}>
