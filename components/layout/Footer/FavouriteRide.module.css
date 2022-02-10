@@ -1,13 +1,13 @@
 .item {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #393939;
+  background-color: #ffffff;
   padding: .2rem;
 }
 .gap {
-  background-color: #ababab;
+  background-color: #3d3838;
   height: 0.1rem;
   width: 100%;
 }
@@ -15,12 +15,13 @@
 
 .text {
   display: flex;
-  color: #ababab;
+  color: #302b2b;
   flex-direction: column;
   justify-content: center;
-  align-items: space-between;
+  align-items: flex-start;
   height: 300px;
   width: 320px ;  
+  margin: 20px;
 }
 .text h4 {
   align-items: center;

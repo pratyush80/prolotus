@@ -1,4 +1,3 @@
-import classes from './Contact.module.css';
 import { Fragment } from 'react';
 import Description from './Description';
 import ContactFile from './ContactFile';
@@ -9,7 +8,6 @@ function Contact() {
       <Description />
       <ContactFile />
     </Fragment>
-    
   )
 };
 

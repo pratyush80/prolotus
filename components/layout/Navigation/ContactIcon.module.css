@@ -1,8 +1,17 @@
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   display: flex;
+  height: 61px;
+  width: 200px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  padding: 5px;
   margin: .2rem;
   border-radius: 10px;
   font-size: .85rem;
@@ -27,6 +36,7 @@
 .image {
   display: flex;
   flex-direction: row;
+  padding-right: 150px;
 }
 
 .image img {
@@ -40,7 +50,9 @@
   text-align: center;
 }
 
-
+.color{
+  color: #77002e;
+}
 
 .actions {
   padding: 0.5rem;
@@ -64,14 +76,14 @@
 
 /* for mobile */
 @media (max-width: 580px) {
-.main{
-  font-size: 0.65rem;
-}
+  .main{
+    font-size: 0.65rem;
+  }
 
-.image img {
-  width: 60px;
-  height: 60px;
-}
+  .image img {
+    width: 60px;
+    height: 60px;
+  }
   
 }
  /* FOR TABLET */
@@ -85,4 +97,48 @@
     height: 50px;
   }
     
+}
+
+.scrollContainer {
+  border: 3px solid rgb(24, 23, 23);
+  color: #77002e;
+  border-radius: 5px;
+  overflow: hidden;
+  animation-name: my-animation;
+}
+
+.scrollText {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 20s linear infinite;
+  -webkit-animation: my-animation 20s linear infinite;
+  animation: my-animation 20s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 }

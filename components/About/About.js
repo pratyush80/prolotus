@@ -1,4 +1,5 @@
 import classes from './About.module.css';
+import Image from 'next/image';
 
 function About() {
   return (
@@ -6,14 +7,31 @@ function About() {
       <div className={classes.main}>
         <ul>
           <h3>For Any Query Contact US</h3>
-        </ul>
-        <ul>
-          <p>Contact Number: 9777358122, 8018924479</p>
-        </ul>
-        <ul>
-          <p>Mail us: pratishu3@gmail.com, pratishurana@gmail.com</p>
+          <h3>Office address</h3>
+          <li>
+            Boinda angul Odisha pin 759127
+          </li>
+          <li>email: rolotus.customer@gmail.com</li>
+          <li>contact Number: 9777358122</li>
+          <li>You can boking only on call basis </li>
+          <li>Payment is partial and upi basis</li>
         </ul>
       </div>
+      
+      <div className={classes.main}>
+        <ul>
+          <h3>For Any Query Contact US</h3>
+          <h3>Office address</h3>
+          <li>
+            Boinda angul Odisha pin 759127
+          </li>
+          <li>email: rolotus.customer@gmail.com</li>
+          <li>contact Number: 9777358122</li>
+          <li>You can boking only on call basis </li>
+          <li>Payment is partial and upi basis</li>
+        </ul>
+      </div>
+
     </section>
   )
 };

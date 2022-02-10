@@ -10,31 +10,31 @@ function FavouriteRide() {
           Angul to Bhubaneswar
         </ul>
         <ul>
-          Sambalpur to Bhubaneswar
+          Angul to Sambalpur
         </ul>
         <ul>
-          Sambalpur to Puri
+          Angul to Puri
         </ul>
         <ul>
-          Angul to Berhampur
+          Angul to rourkela
         </ul>
         <ul>
-          Angul to Rourkela
+          Angul to Balangir
         </ul>
       </div>
       <div className={classes.text}>
         <h4>Southern Odisha</h4>
         <ul>
-          Bolangir to Bhubaneswar
+         Sambalpur to Bhubaneswar
         </ul>
         <ul>
-          Sambalpur to Rourkela
+          Sambalpur to Puri
         </ul>
         <ul>
           Sambalpur to Baleswar
         </ul>
         <ul>
-          Angul to NUapada
+          Sambalpur to Cuttack
         </ul>
         <ul>
           Dhenkanal to Rourkela
@@ -43,37 +43,37 @@ function FavouriteRide() {
       <div className={classes.text}>
         <h4>Eastrn Odisha</h4>
         <ul>
-          Angul to Bhubaneswar
+          Dhenkanal to Bhubaneswar
         </ul>
         <ul>
-          Sambalpur to Bhubaneswar
+          Dhenkanal to Khurdha
         </ul>
         <ul>
-          Sambalpur to Puri
+          Dhenkanal to Puri
         </ul>
         <ul>
-          Angul to Berhampur
+          Dhenkanal to Boudh
         </ul>
         <ul>
-          Angul to Rourkela
+          Dhenkanal to Sonepur
         </ul>
       </div>
       <div className={classes.text}>
         <h4>Westrn Odisha</h4>
         <ul>
-          Angul to Bhubaneswar
+          Cuttack to Sambalpur
         </ul>
         <ul>
-          Sambalpur to Bhubaneswar
+          Cuttack to Jharsuguda
         </ul>
         <ul>
-          Sambalpur to Puri
+          Cuttack to Baleswar
         </ul>
         <ul>
-          Angul to Berhampur
+          Cuttack to Boudh
         </ul>
         <ul>
-          Angul to Rourkela
+          Cuttack to Sonepur
         </ul>
       </div>
     </section>

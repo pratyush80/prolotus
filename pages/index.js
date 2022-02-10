@@ -6,11 +6,12 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>React Meetups</title>
+        <title>Home Page for rolotus.com</title>
         <meta
           name='description'
-          content='Browse a huge list of highly active React meetups!'
+          content='A complete logistic service service '
         />
+        <link rel="icon" href="/tataace.jpg" />
       </Head>
       <div>
       <Contact />

@@ -4,16 +4,53 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
+  background-color: #ffffff;
   padding: 0 0.5rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  margin-top: 10px;
 }
 
-.logo {
-  font-size: 2rem;
-  color: white;
+.gap{
+  width: 100%;
+  height: 0.2rem;
+  background-color: cornflowerblue;
+}
+
+.logo{
   font-weight: bold;
+  font-size: 2rem;
+  color: rgb(192, 133, 22);
+}
+
+.iconcall{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4b4c52;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.animatedlogo {
+	font-family: Helvetica;
+	/* letter-spacing: 0.2em; */
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	color: #202125;
+  cursor: pointer;
+  max-width: 60px; 
+  outline: 3px solid;
+  outline-color: rgba(71, 126, 232,0.5);
+  outline-offset: 70px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animatedlogo:hover {
+	color: rgba(71, 126, 232, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 100px;
 }
 
 .header ul {
@@ -26,18 +63,18 @@
 
 .header li {
   margin-left: 0.5rem;
+  font-size: 1rem;
+  font: bold;
 }
 
 .header a {
   text-decoration: none;
-  font-size: 1rem;
-  color: #fcb8d2;
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: white;
+  color: rgb(219, 216, 7);
 }
 
 
@@ -45,6 +82,14 @@
  .header{
    align-items: baseline;
  }
+.logo{
+  font-size: 1rem;
+}
+
+.header li {
+  font-size: .75rem;
+}
+
     
 }
    /* FOR TABLET */

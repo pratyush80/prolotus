@@ -2,3 +2,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
+.gap{
+  width: 100%;
+  height: 0.2rem;
+  background-color: cornflowerblue;
+}

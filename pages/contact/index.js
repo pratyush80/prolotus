@@ -7,11 +7,12 @@ function ContactPage() {
   return (
     <Fragment>
       <Head>
-        <title>React Meetups</title>
+        <title>Contact Page for rolotus.com</title>
         <meta
           name='description'
-          content='Browse a huge list of highly active React meetups!'
+          content='A contact Page for our company!'
         />
+        <link rel="icon" href="/tataace.jpg" />
       </Head>
       <div>
         <Contact />

@@ -11,12 +11,11 @@ function ContactFile() {
             <h3>For Any Query Contact US</h3>
           </ul>
           <ul>
-            <p>Contact Number: 9777358122, 8018924479</p>
+            <p>Contact Number: 9777358122</p>
           </ul>
           <ul>
-            <p>Mail us: pratishu3@gmail.com, pratishurana@gmail.com</p>
+            <p>Mail us: rolotus.customer@gmail.com</p>
           </ul>
-         
         </div>
       </section>
       <div className={classes.gap}></div>

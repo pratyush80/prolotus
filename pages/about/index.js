@@ -7,7 +7,8 @@ function AboutPage(props) {
     <Fragment>
       <Head>
         <title>About Page</title>
-        <meta name='description' />
+        <meta name='About page for our company rolotus.com' />
+        <link rel="icon" href="/tataace.jpg" />
       </Head>
       <About />
     </Fragment>
