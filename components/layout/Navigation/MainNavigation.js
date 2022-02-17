@@ -20,7 +20,7 @@ function MainNavigation() {
           <li>
             <div className={classes.iconcall}>
              <Image src='/svg/call-svgrepo-com.svg' alt='phoneicon' height={37} width={20} />
-            9777358122
+               9777358122
             </div>
           </li>
             

@@ -8,7 +8,7 @@ function ContactIcon() {
     <Fragment>
       <section className={classes.scrollContainer}>
         <div className={classes.scrollText}> 
-          <h3>We have covered whole odisha from any point to any point with reasonable price. </h3>
+          <h3>We have covered whole ODISHA with cheap price. </h3>
         </div>
       </section>
     </Fragment>

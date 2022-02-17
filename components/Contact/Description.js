@@ -13,9 +13,9 @@ function Description() {
           </div>
           <div className={classes.text}>
             <ul>
-              <li>max-distance covered 100km</li>
+              <li>max-distance covered 200km</li>
               <li><p>12-14 ruppes for 1 km</p></li>
-              <li>service Provided for Single way</li>
+              <li>OverLload is not permissable</li>
               <li>Service provided for Bussiness logistics, Construction Materials, furniture logistics, House shifting </li>
             </ul>
           </div>
@@ -28,13 +28,13 @@ function Description() {
           </div>
           <div className={classes.text}>
             <ul>
-              <li>max-distance covered 150km</li>
+              <li>max-distance covered 300km</li>
               <li>
                 <p>
                 14-16 ruppes for 1 km
                 </p>
               </li>
-              <li>service Provided for Single way</li>
+              <li>OverLload is not permissable</li>
               <li>Service provided for Bussiness logistics, Construction Materials, furniture logistics, House shifting </li>
             </ul>
           </div>
@@ -47,9 +47,9 @@ function Description() {
           </div>
           <div className={classes.text}>
           <ul>
-              <li>max-distance covered 200km</li>
+              <li>max-distance covered 300km</li>
               <li><p>14-16 ruppes for 1 km</p></li>
-              <li>service Provided for Single way</li>
+              <li>OverLload is not permissable</li>
               <li>Service provided for Bussiness logistics, Construction Materials, furniture logistics, House shifting </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ function Description() {
           <ul>
               <li>max-distance covered 250km</li>
               <li><p>12-14 ruppes for 1 km</p></li>
-              <li>service Provided for Single way</li>
+              <li>OverLload is not permissable</li>
               <li>Service provided for Bussiness  logistics, Construction Materials, furniture logistics, House shifting </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ function Description() {
             <ul>
             <li>max-distance covered 300km</li>
               <li><p>15-17 ruppes for 1 km</p></li>
-              <li>service Provided for Single way</li>
+              <li>OverLload is not permissable</li>
               <li>Service provided for Bussiness logistics, Construction Materials, furniture logistics, House shifting </li>
             </ul>
           </div>
@@ -94,9 +94,9 @@ function Description() {
           </div>
           <div className={classes.text}>
             <ul>
-              <li>max-distance covered 350km</li>
+              <li>max-distance covered 200km</li>
               <li><p>12-14 ruppes for 1 km</p></li>
-              <li>service Provided for Single way</li>
+              <li>OverLload is not permissable</li>
               <li>Service provided for Bussiness logistics, Construction Materials, furniture logistics, House shifting </li>
             </ul>
           </div>
