@@ -37,7 +37,7 @@ function FavouriteRide() {
           Sambalpur to Cuttack
         </ul>
         <ul>
-          Dhenkanal to Rourkela
+          Sambalpur to Dhenkanal
         </ul>
       </div>
       <div className={classes.text}>
@@ -46,7 +46,7 @@ function FavouriteRide() {
           Dhenkanal to Bhubaneswar
         </ul>
         <ul>
-          Dhenkanal to Khurdha
+          Dhenkanal to SambalPur
         </ul>
         <ul>
           Dhenkanal to Puri
@@ -61,19 +61,19 @@ function FavouriteRide() {
       <div className={classes.text}>
         <h4>Westrn Odisha</h4>
         <ul>
-          Cuttack to Sambalpur
+          Boudh to Sambalpur
         </ul>
         <ul>
-          Cuttack to Jharsuguda
+          Boudh to Jharsuguda
         </ul>
         <ul>
-          Cuttack to Baleswar
+          Boudh to Baleswar
         </ul>
         <ul>
-          Cuttack to Boudh
+          Deogarh to Boudh
         </ul>
         <ul>
-          Cuttack to Sonepur
+          Deogarh to Sonepur
         </ul>
       </div>
     </section>

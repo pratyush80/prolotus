@@ -18,12 +18,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #393939;
+  color: #ababab;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .gap {
-  padding: 0.5rem;
+  background-color: rgb(187, 90, 55);
+  height: .1rem;
+  width: 100%;
 }
 .text {
   padding: 0.1rem;
@@ -34,8 +37,9 @@
   background-color: #393939 ;
 }
 
-.footer p{
+.item p{
  font-size: 15px;
+ color: #ababab;
 }
 
 .text h3 {

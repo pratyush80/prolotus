@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Fragment } from 'react';
-import Contact from '../../components/Contact/Contact';
 
 
 function ContactPage() {
@@ -15,7 +14,6 @@ function ContactPage() {
         <link rel="icon" href="/tataace.jpg" />
       </Head>
       <div>
-        <Contact />
       </div>
     </Fragment>
   );

@@ -43,6 +43,7 @@ function SocialLink() {
           </a>
         </div>
       </div>
+      <div className={classes.gap}></div>
       <div className={classes.item}>
        <p>Copyright © 2022 rolotus technology Pvt Ltd. All rights reserved.</p>
       </div>

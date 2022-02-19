@@ -6,17 +6,15 @@ function ContactFile() {
   return (
     <Fragment>
      <section className={classes.item}>
-        <div className={classes.text}>
-          <ul>
-            <h3>For Any Query Contact US</h3>
-          </ul>
-          <ul>
-            <p>Contact Number: 9777358122</p>
-          </ul>
-          <ul>
-            <p>Mail us: rolotus.customer@gmail.com</p>
-          </ul>
-        </div>
+        <ul>
+          <h3>For Any Query Contact US</h3>
+        </ul>
+        <ul>
+          <h5>Contact Number: 9777358122</h5>
+        </ul>
+        <ul>
+          <h5>Mail us: rolotus.customer@gmail.com</h5>
+        </ul>
       </section>
       <div className={classes.gap}></div>
       <div className={classes.image}>

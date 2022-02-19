@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { Fragment } from 'react';
 import Image from 'next/image';
-import ContactIcon from './ContactIcon';
 
 import classes from './MainNavigation.module.css';
 
@@ -9,20 +8,21 @@ function MainNavigation() {
 
   return (
     <Fragment>
+
     <header className={classes.header}>
       <div className={classes.logo}>
-        <Link href='/'>
-          rolotus.com
+        <Link href='/' passHref>
+          <h5>rolotus.com</h5>
         </Link>
       </div>
       <nav>
         <ul>
-          <li>
-            <div className={classes.iconcall}>
+          {/* <li>
+            <div className={classes.call}>
              <Image src='/svg/call-svgrepo-com.svg' alt='phoneicon' height={37} width={20} />
                9777358122
             </div>
-          </li>
+          </li> */}
             
           <li>
             <Link href='/'>Home</Link>
@@ -36,8 +36,6 @@ function MainNavigation() {
         </ul>
       </nav>
       </header>
-      <div className={classes.gap}></div>
-      <ContactIcon />
     </Fragment>
   );
 };

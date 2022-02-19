@@ -1,11 +1,13 @@
 .item {
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #393939;
+  background-color: rgb(190, 97, 30);
   border-radius: 10px;
 }
+
 .gap {
   padding: 0.2rem;
 }
@@ -19,13 +21,7 @@
   display: flex;
 }
 
-.text {
-  display: flex;
-  color: #ababab;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .text h3 {
   align-items: center;
@@ -39,6 +35,7 @@
 @media  (max-width:580px) {
   .item {
     flex-direction: column;
+    min-width: 375px;
   }
  .text {
   flex-direction: column;

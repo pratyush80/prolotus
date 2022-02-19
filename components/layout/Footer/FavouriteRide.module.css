@@ -3,8 +3,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #ffffff;
-  padding: .2rem;
+  background-color: #393939;
 }
 .gap {
   background-color: #3d3838;
@@ -14,8 +13,8 @@
 
 
 .text {
+  color: #ababaa;
   display: flex;
-  color: #302b2b;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -41,11 +40,13 @@
 @media  (max-width:580px) {
   .item {
     flex-direction: column;
+    min-width: 375px;
   }
  
   .text {
     width: 340px;
     height: 300px;
+    margin: 2px;
   }
 }
 
@@ -58,6 +59,7 @@
   .text {
     width: 340px;
     height: 300px;
+    margin: 1px;
   }
  
 }
