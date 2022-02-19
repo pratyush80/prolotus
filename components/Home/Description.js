@@ -21,7 +21,7 @@ function Description() {
 
         <div className={classes.main}>
           <div className={classes.image}>
-            <Image src='/mahindra-pickup.png' alt='phoneicon' height={210} width={280} />
+            <Image src='/pickup_1.7t.jpg' alt='phoneicon' height={210} width={280} />
              <h5>PICK-UP</h5>
           </div>
           <div className={classes.text}>
@@ -79,7 +79,7 @@ function Description() {
 
         <div className={classes.main}>
           <div className={classes.image}>
-          <Image src='/3wheel.webp ' alt='phoneicon' height={210} width={280} />
+          <Image src='/3wheel.webp' alt='phoneicon' height={210} width={280} />
           <h5>3wheel</h5>
           </div>
           <div className={classes.text}>
